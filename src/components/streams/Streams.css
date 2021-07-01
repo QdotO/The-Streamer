@@ -1,0 +1,113 @@
+label {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.error {
+    font-weight: bolder;
+    color: rgb(183, 76, 72);
+    margin: 1rem 0;
+    padding: 1rem 0 1rem 1.5rem;
+    background: rgb(252, 246, 246);
+    border: 1px solid rgb(183, 76, 72);
+    border-radius: 8px;
+}
+
+input {
+    width: 90vw;
+    height: 40px;
+    border-radius: 8px;
+    border: solid lightgrey 2px;
+    padding: 0 0.5rem;
+}
+
+.error-field {
+    color: rgb(183, 76, 72);
+}
+
+.error-field input {
+    border: 1px dashed rgb(183, 76, 72);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+h1 {
+    text-align: center;
+    align-self: center;
+}
+
+.submit-btn {
+    background: rgb(63, 121, 206);
+    color: white;
+    width: 10%;
+    min-width: 80px;
+    min-height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+/* Streams List */
+.stream-container {
+    list-style-type: none;
+}
+
+.stream {
+    padding: 0.5rem;
+    border: 1px solid darkgrey;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stream-content {
+    overflow-x: hidden;
+}
+
+.stream-action-container {
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.stream-action-edit,
+.stream-action-delete {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0.75rem;
+    text-decoration: none;
+}
+
+.stream-action-edit {
+    margin-right: 0.5rem;
+    background: rgb(63, 121, 206);
+    color: white;
+}
+
+.stream-action-delete {
+    background: rgb(183, 76, 72);
+    color: white;
+}
+
+.stream-create-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.stream-create-btn {
+    background: lightgrey;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 0.75rem;
+    color: black;
+}
+
+/* End Streams List */
